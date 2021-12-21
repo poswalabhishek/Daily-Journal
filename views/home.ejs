@@ -11,12 +11,11 @@
     <%=post.content.substring(0, 100) + " ..."%>
     <a href="/posts/<%=post._id%>">Read More</a>
     </p>
-    <div>
-      <a class="btn btn-primary" name="button" href="/compose">COMPOSE</a>
-    </div>
 
 
     <% }) %>
-
+    <div>
+      <a class="btn btn-primary" name="button" href="/compose">COMPOSE</a>
+    </div>
 
 <%- include("partials/footer"); -%>
